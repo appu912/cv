@@ -1,0 +1,138 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 1.5rem;
+}
+
+h1 {
+  margin: 5.5rem auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem; /*16px = 100% = 1em (90px)*/
+  color: #45B29A;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #45B29A;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto 100px auto;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.skill-programming {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-bed {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 1.8;
+}
+
+.footer-link {
+  color: #11999E;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.engineer {
+  font-weight: normal;
+  color: #45B29A;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 8%;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 27%;
+  top: 18%;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 27%;
+  bottom: 45%;
+}
+.middle-container {
+  margin: 100px 0 100px 0;
+}
+
+.bottom-container {
+  background-color: #45B29A;
+  padding: 50px 0 20px;
+}
+
+.message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+	background:linear-gradient(to bottom, #45b29a 5%, #11999e 100%);
+	background-color:#45b29a;
+	border-radius:9px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	padding:14px 37px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #46b097;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #11999e 5%, #45b29a 100%);
+	background-color:#11999e;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.copywright {
+  color: #EAF6F6;
+  padding: 20px 0;
+}
